@@ -1,0 +1,233 @@
+2020-04-23 16:10:20.177 26466-26466/co.acoustic.mobile.push.samples.android D/showInApp rule:: pg2
+2020-04-23 16:10:20.183 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppStorage: inApp storage messages: [] (0)
+2020-04-23 16:10:20.185 26466-26470/co.acoustic.mobile.push.samples.android I/art: Do partial code cache collection, code=54KB, data=62KB
+2020-04-23 16:10:20.186 26466-26470/co.acoustic.mobile.push.samples.android I/art: After code cache collection, code=54KB, data=62KB
+2020-04-23 16:10:20.186 26466-26470/co.acoustic.mobile.push.samples.android I/art: Increasing code cache capacity to 256KB
+2020-04-23 16:10:22.823 26466-26466/co.acoustic.mobile.push.samples.android D/showInApp rule:: all
+2020-04-23 16:10:22.825 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppStorage: inApp storage messages: [InAppPayload{id=M2UxhqA0uQ8GHEdH, contentId='lGWwFNns', attribution='acousticTest2020-04-22T11:38', mailingId='', triggerDate=Wed Apr 22 20:46:24 GMT+03:00 2020 (1587577584483), expirationDate=Mon Mar 29 20:17:00 GMT+03:00 2021 (1617038220000), rules=["2","all"], maxViews=5, views=2, templateName='image', templateContent={"title":"Acoustic-InApp-Image temple","text":"Acoustic-InApp-Image temple","image":"https:\/\/i.imgur.com\/OvvzjsO.jpg","action":{"type":"url","value":"http:\/\/www.boi.org.il\/en\/Markets\/ExchangeRates\/Pages\/Default.aspx"}}, actions=null}] (1)
+2020-04-23 16:10:22.829 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppMessagesDatabaseHelper: Update views of M2UxhqA0uQ8GHEdH views is 3 max views is 5
+2020-04-23 16:10:22.829 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppMessagesDatabaseHelper: Max views not reached - updating message
+2020-04-23 16:10:22.829 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppMessagesDatabaseHelper: Update where clause: _id = ?
+2020-04-23 16:10:22.829 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager: Loader getting https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:22.829 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppMessagesDatabaseHelper: Max views not reached - updating message
+2020-04-23 16:10:22.830 26466-26748/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : EventsManager: Adding inAppMessage event with name = messageOpened [@{Evt}]
+2020-04-23 16:10:22.831 26466-26748/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : EventsDataAccess: Adding event to db: type = inAppMessage, name = messageOpened, timestamp = 2020-04-23T16:10:22.827+0300, attribution = acousticTest2020-04-22T11:38, mailingId =  attributes json = [] [@{Evt}@{DB}]
+2020-04-23 16:10:22.831 26466-26748/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : Provider: insert(uri=content://co.acoustic.mobile.push.samples.android.MCE_PROVIDER/events, values=attribution=acousticTest2020-04-22T11:38 name=messageOpened attributes=[] timestamp=2020-04-23T16:10:22.827+0300 mailingId= type=inAppMessage) [@{DB}]
+2020-04-23 16:10:22.831 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Can't get image https://i.imgur.com/OvvzjsO.jpg from file cache. Not found in cache
+2020-04-23 16:10:22.832 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.MediaCache: Image cache miss for https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:22.832 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager: Loader couldn't find stored image in cache for  https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:22.841 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppMessagesDatabaseHelper: Views update result: 1
+2020-04-23 16:10:22.843 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppPlugin: inApp message state update is performed for: InAppPayload{id=M2UxhqA0uQ8GHEdH, contentId='lGWwFNns', attribution='acousticTest2020-04-22T11:38', mailingId='', triggerDate=Wed Apr 22 20:46:24 GMT+03:00 2020 (1587577584483), expirationDate=Mon Mar 29 20:17:00 GMT+03:00 2021 (1617038220000), rules=["2","all"], maxViews=5, views=3, templateName='image', templateContent={"title":"Acoustic-InApp-Image temple","text":"Acoustic-InApp-Image temple","image":"https:\/\/i.imgur.com\/OvvzjsO.jpg","action":{"type":"url","value":"http:\/\/www.boi.org.il\/en\/Markets\/ExchangeRates\/Pages\/Default.aspx"}}, actions=null}
+2020-04-23 16:10:22.847 26466-26748/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : EventsDataAccess: Event added successfully to db [@{Evt}@{DB}]
+2020-04-23 16:10:22.850 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppPreferences: Setting inApp status payload to {"inAppUpdates":[{"inAppMessageId":"M2UxhqA0uQ8GHEdH","numViews":3,"maxViews":5,"timestamp":"2020-04-23T16:10:22.843+0300"}]}
+2020-04-23 16:10:22.851 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MceServerUrl: Build url: https://sdk0.ibm.xtify.com/3.0/apps/gciJSPjmY3/inbox/users/dC4lGPK3bwBmmSU6/channels/1t1ziS1l/status
+2020-04-23 16:10:22.853 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : HttpHelper: Server call:
+    url: https://sdk0.ibm.xtify.com/3.0/apps/gciJSPjmY3/inbox/users/dC4lGPK3bwBmmSU6/channels/1t1ziS1l/status
+    content type: json
+    method: POST
+    query: {"inAppUpdates":[{"inAppMessageId":"M2UxhqA0uQ8GHEdH","numViews":3,"maxViews":5,"timestamp":"2020-04-23T16:10:22.843+0300"}]}
+2020-04-23 16:10:22.853 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : HttpHelper: Created connection for https://sdk0.ibm.xtify.com/3.0/apps/gciJSPjmY3/inbox/users/dC4lGPK3bwBmmSU6/channels/1t1ziS1l/status
+2020-04-23 16:10:23.513 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : HttpHelper: Received response: null
+2020-04-23 16:10:23.513 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : HttpHelper: Received non gzip input from connection
+2020-04-23 16:10:23.514 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : HttpHelper: Server response:
+    code: 202
+    message: Accepted
+    response: 
+2020-04-23 16:10:23.514 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppPlugin: inApp status update succeeded for: {"inAppUpdates":[{"inAppMessageId":"M2UxhqA0uQ8GHEdH","numViews":3,"maxViews":5,"timestamp":"2020-04-23T16:10:22.843+0300"}]}
+2020-04-23 16:10:23.528 26466-26751/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : InAppPreferences: Setting inApp status payload to null
+2020-04-23 16:10:24.058 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager: Downloaded image: android.graphics.Bitmap@248c488
+2020-04-23 16:10:24.058 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheInMemory: Image stored in cache: https://i.imgur.com/OvvzjsO.jpg (LruOrder{order=[https://i.imgur.com/OvvzjsO.jpg]})
+2020-04-23 16:10:24.058 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheInMemory: Allocating 4MB. Status: [0MB / 20MB]
+2020-04-23 16:10:24.058 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheInMemory: Allocation status after: [4MB / 20MB]
+2020-04-23 16:10:24.058 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Trying to store image in file cache: https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:24.061 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Lru order after store: LruOrder{order=[ImageFileEntry{url='https://i.imgur.com/OvvzjsO.jpg', fileIndex=0}]}
+2020-04-23 16:10:24.749 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Allocating 1MB. Status: [0MB / 100MB]
+2020-04-23 16:10:24.749 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Allocation status after: [1MB / 100MB]
+2020-04-23 16:10:24.749 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager.ImageCacheFile: Stored image from url content of https://i.imgur.com/OvvzjsO.jpg into file /storage/emulated/0/Android/data/co.acoustic.mobile.push.samples.android/cache/ibm-mce-android-sdk/cache/images/0 [1513453]. Used entry: ImageFileEntry{url='https://i.imgur.com/OvvzjsO.jpg', fileIndex=0} from FileBasedLruOrder{parent=co.acoustic.mobile.push.sdk.util.media.FileSystemLruImageCache@e0d4e21, storageFile=/storage/emulated/0/Android/data/co.acoustic.mobile.push.samples.android/cache/ibm-mce-android-sdk/cache/images/order.json, lruOrder=LruOrder{order=[ImageFileEntry{url='https://i.imgur.com/OvvzjsO.jpg', fileIndex=0}]}, urlToFileEntryMap={https://i.imgur.com/OvvzjsO.jpg=ImageFileEntry{url='https://i.imgur.com/OvvzjsO.jpg', fileIndex=0}}, maxIndex=1}
+2020-04-23 16:10:24.749 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MediaManager: Image downloaded from https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:24.749 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : ImageTemplate: Setting image resource as url: https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:24.751 26466-26747/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : ImageTemplate: Setting image url in arguments: https://i.imgur.com/OvvzjsO.jpg
+2020-04-23 16:10:24.752 26466-26466/co.acoustic.mobile.push.samples.android E/FragmentManager: No view found for id 0x7f080054 (co.acoustic.mobile.push.samples.android:id/con) for fragment ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+2020-04-23 16:10:24.752 26466-26466/co.acoustic.mobile.push.samples.android E/FragmentManager: Activity state:
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   Local Activity d8b6b3 State:
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mResumed=true mStopped=false mFinished=false
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mChangingConfigurations=false
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mCurrentConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.6}
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mLoadersStarted=true
+2020-04-23 16:10:24.753 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     Active Fragments in d199ca0:
+2020-04-23 16:10:24.760 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       #0: ReportFragment{560a059 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+2020-04-23 16:10:24.760 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+2020-04-23 16:10:24.760 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+2020-04-23 16:10:24.760 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+2020-04-23 16:10:24.761 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+2020-04-23 16:10:24.761 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mRetainInstance=false mRetaining=false mUserVisibleHint=true
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mFragmentManager=FragmentManager{d199ca0 in HostCallbacks{8d5941e}}
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         mHost=android.app.Activity$HostCallbacks@8d5941e
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         Child FragmentManager{34564ff in ReportFragment{560a059}}:
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           FragmentManager misc state:
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mHost=android.app.Activity$HostCallbacks@8d5941e
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mContainer=android.app.Fragment$1@58be2cc
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mParent=ReportFragment{560a059 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mCurState=5 mStateSaved=false mDestroyed=false
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     Added Fragments:
+2020-04-23 16:10:24.762 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       #0: ReportFragment{560a059 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     FragmentManager misc state:
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mHost=android.app.Activity$HostCallbacks@8d5941e
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mContainer=android.app.Activity$HostCallbacks@8d5941e
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mCurState=5 mStateSaved=false mDestroyed=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   ViewRoot:
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mAdded=true mRemoved=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mConsumeBatchedInputScheduled=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mConsumeBatchedInputImmediatelyScheduled=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mPendingInputEventCount=0
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mProcessInputEventsScheduled=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mTraversalScheduled=false    mIsAmbientMode=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   Choreographer:
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mFrameScheduled=false
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mLastFrameTime=285179738 (1776 ms ago)
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   View Hierarchy:
+2020-04-23 16:10:24.763 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     DecorView@171e915[MainActivity]
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       android.widget.LinearLayout{dc2d42a V.E...... ........ 0,0-1080,1794}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         android.view.ViewStub{b15521b G.E...... ......I. 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         android.widget.FrameLayout{2fa5fb8 V.E...... ........ 0,63-1080,1794}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           androidx.appcompat.widget.ActionBarOverlayLayout{e150191 V.E...... ........ 0,0-1080,1731 #7f08005c app:id/decor_content_parent}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             androidx.appcompat.widget.ContentFrameLayout{c9208f6 V.E...... ........ 0,147-1080,1731 #1020002 android:id/content}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:               androidx.constraintlayout.widget.ConstraintLayout{d2cf4f7 V.E...... ........ 0,0-1080,1584 #7f080055 app:id/container}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 com.google.android.material.bottomnavigation.BottomNavigationView{cd1bf64 V.E...... ........ 0,1437-1080,1584 #7f08009c app:id/nav_view}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                   com.google.android.material.bottomnavigation.BottomNavigationMenuView{a929595 V.E...... ........ 0,0-1080,147}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                     com.google.android.material.bottomnavigation.BottomNavigationItemView{3b46aa VFE...C.. ........ 0,0-360,147 #7f08009f app:id/navigation_home}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       androidx.appcompat.widget.AppCompatImageView{a41129b V.ED..... ........ 148,21-211,84 #7f08007c app:id/icon}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       com.google.android.material.internal.BaselineLayout{425638 V.E...... ........ 109,81-250,147}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{9d3f611 V.ED..... ........ 27,6-113,49 #7f0800d3 app:id/smallLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{65f2376 I.ED..... ......I. 0,0-141,51 #7f080089 app:id/largeLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                     com.google.android.material.bottomnavigation.BottomNavigationItemView{6943d77 VFE...C.. ........ 360,0-720,147 #7f08009d app:id/navigation_dashboard}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       androidx.appcompat.widget.AppCompatImageView{8e29de4 V.ED..... ........ 148,21-211,84 #7f08007c app:id/icon}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       com.google.android.material.internal.BaselineLayout{6f0e24d V.E...... ........ 69,81-290,147}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{e120102 V.ED..... ........ 33,6-188,49 #7f0800d3 app:id/smallLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{3853a13 I.ED..... ........ 0,0-221,51 #7f080089 app:id/largeLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                     com.google.android.material.bottomnavigation.BottomNavigationItemView{51db450 VFE...C.. ..S..... 720,0-1080,147 #7f0800a0 app:id/navigation_notifications}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       androidx.appcompat.widget.AppCompatImageView{765649 V.ED..... ..S..... 148,16-211,79 #7f08007c app:id/icon}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                       com.google.android.material.internal.BaselineLayout{6232b4e V.E...... ..S..... 54,81-305,147}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{7f646f I.ED..... ..S..... 34,6-216,49 #7f0800d3 app:id/smallLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                         androidx.appcompat.widget.AppCompatTextView{3b1c57c V.ED..... ..S..... 0,0-251,51 #7f080089 app:id/largeLabel}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 android.widget.FrameLayout{8f725cd V.E...... ........ 0,147-1080,1584 #7f08009b app:id/nav_host_fragment}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                   androidx.constraintlayout.widget.ConstraintLayout{84dbe82 V.E...... ........ 0,0-1080,1437}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                     androidx.appcompat.widget.AppCompatTextView{3b1e993 V.ED..... ........ 21,21-1059,92 #7f0800f5 app:id/text_home}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             androidx.appcompat.widget.ActionBarContainer{29d6dd0 V.ED..... ........ 0,0-1080,147 #7f080029 app:id/action_bar_container}
+2020-04-23 16:10:24.764 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:               androidx.appcompat.widget.Toolbar{35d51c9 V.E...... ........ 0,0-1080,147 #7f080027 app:id/action_bar}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 androidx.appcompat.widget.AppCompatTextView{81d40ce V.ED..... ........ 42,38-265,109}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 androidx.appcompat.widget.ActionMenuView{b878bef V.E...... ......ID 1080,0-1080,147}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:               androidx.appcompat.widget.ActionBarContextView{f3396fc G.E...... ......I. 0,0-0,0 #7f08002f app:id/action_context_bar}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       android.view.View{3e04185 V.ED..... ........ 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       android.view.View{c509bda V.ED..... ........ 0,0-1080,63 #102002f android:id/statusBarBackground}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   Looper (main, tid 1) {26af80b}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     (Total messages: 0, polling=false, quitting=false)
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   Local FragmentActivity d8b6b3 State:
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mCreated=true mResumed=true mStopped=false  Active Fragments in 2a126e8:
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   NavHostFragment{7e87101 (3e601b38-a4ea-4809-8ffa-cdb4ae1aff51) id=0x7f08009b}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mFragmentId=#7f08009b mContainerId=#7f080055 mTag=null
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mState=4 mWho=3e601b38-a4ea-4809-8ffa-cdb4ae1aff51 mBackStackNesting=0
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mAdded=true mRemoving=false mFromLayout=true mInLayout=true
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mRetainInstance=false mUserVisibleHint=true
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mFragmentManager=FragmentManager{2a126e8 in HostCallbacks{82c9ba6}}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mView=android.widget.FrameLayout{8f725cd V.E...... ........ 0,147-1080,1584 #7f08009b app:id/nav_host_fragment}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mInnerView=android.widget.FrameLayout{8f725cd V.E...... ........ 0,147-1080,1584 #7f08009b app:id/nav_host_fragment}
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       Child FragmentManager{acf09e7 in NavHostFragment{7e87101}}:
+2020-04-23 16:10:24.765 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         Active Fragments in acf09e7:
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         HomeFragment{c3e3fdf (88e7324b-c25a-4b6d-bf5b-a297c326b557) id=0x7f08009b}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mFragmentId=#7f08009b mContainerId=#7f08009b mTag=null
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mState=4 mWho=88e7324b-c25a-4b6d-bf5b-a297c326b557 mBackStackNesting=0
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mRetainInstance=false mUserVisibleHint=true
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mFragmentManager=FragmentManager{acf09e7 in NavHostFragment{7e87101}}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mParentFragment=NavHostFragment{7e87101 (3e601b38-a4ea-4809-8ffa-cdb4ae1aff51) id=0x7f08009b}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mContainer=android.widget.FrameLayout{8f725cd V.E...... ........ 0,147-1080,1584 #7f08009b app:id/nav_host_fragment}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mView=androidx.constraintlayout.widget.ConstraintLayout{84dbe82 V.E...... ........ 0,0-1080,1437}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             mInnerView=androidx.constraintlayout.widget.ConstraintLayout{84dbe82 V.E...... ........ 0,0-1080,1437}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:             Child FragmentManager{ed5c994 in HomeFragment{c3e3fdf}}:
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:               FragmentManager misc state:
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 mContainer=androidx.fragment.app.Fragment$4@ea1c3d
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 mParent=HomeFragment{c3e3fdf (88e7324b-c25a-4b6d-bf5b-a297c326b557) id=0x7f08009b}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:                 mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         Added Fragments:
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           #0: HomeFragment{c3e3fdf (88e7324b-c25a-4b6d-bf5b-a297c326b557) id=0x7f08009b}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         FragmentManager misc state:
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mContainer=androidx.fragment.app.Fragment$4@c76cc32
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mParent=NavHostFragment{7e87101 (3e601b38-a4ea-4809-8ffa-cdb4ae1aff51) id=0x7f08009b}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mFragmentId=#7f080054 mContainerId=#7f080054 mTag=mce-image
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mState=1 mWho=534eb1ae-5359-4587-82c1-afdc8a68a980 mBackStackNesting=0
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mRetainInstance=false mUserVisibleHint=true
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mFragmentManager=FragmentManager{2a126e8 in HostCallbacks{82c9ba6}}
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.766 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       mArguments=Bundle[{duration=5, messageId=M2UxhqA0uQ8GHEdH, payload=Bundle[{value=http://www.boi.org.il/en/Markets/ExchangeRates/Pages/Default.aspx}], attribution=acousticTest2020-04-22T11:38, mailingId=, text=Acoustic-InApp-Image temple, image=https://i.imgur.com/OvvzjsO.jpg, title=Acoustic-InApp-Image temple, actionType=url}]
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:       Child FragmentManager{1785d83 in ImageFragment{9f951a3}}:
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:         FragmentManager misc state:
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mContainer=androidx.fragment.app.Fragment$4@30feb00
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mParent=ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:           mCurState=1 mStateSaved=false mStopped=false mDestroyed=false
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   Added Fragments:
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     #0: NavHostFragment{7e87101 (3e601b38-a4ea-4809-8ffa-cdb4ae1aff51) id=0x7f08009b}
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     #1: ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:   FragmentManager misc state:
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mContainer=androidx.fragment.app.FragmentActivity$HostCallbacks@82c9ba6
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/FragmentManager:     mCurState=4 mStateSaved=false mStopped=false mDestroyed=false
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/AndroidRuntime: Shutting down VM
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android D/IBM.MCE 3.8.1 : MceApplication: Unexpected error
+    java.lang.IllegalArgumentException: No view found for id 0x7f080054 (co.acoustic.mobile.push.samples.android:id/con) for fragment ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+        at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManagerImpl.java:875)
+        at androidx.fragment.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManagerImpl.java:1238)
+        at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManagerImpl.java:1303)
+        at androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:439)
+        at androidx.fragment.app.FragmentManagerImpl.executeOps(FragmentManagerImpl.java:2079)
+        at androidx.fragment.app.FragmentManagerImpl.executeOpsTogether(FragmentManagerImpl.java:1869)
+        at androidx.fragment.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManagerImpl.java:1824)
+        at androidx.fragment.app.FragmentManagerImpl.execPendingActions(FragmentManagerImpl.java:1727)
+        at androidx.fragment.app.FragmentManagerImpl$2.run(FragmentManagerImpl.java:150)
+        at android.os.Handler.handleCallback(Handler.java:751)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.app.ActivityThread.main(ActivityThread.java:6119)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+    
+    
+    --------- beginning of crash
+2020-04-23 16:10:24.767 26466-26466/co.acoustic.mobile.push.samples.android E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: co.acoustic.mobile.push.samples.android, PID: 26466
+    java.lang.IllegalArgumentException: No view found for id 0x7f080054 (co.acoustic.mobile.push.samples.android:id/con) for fragment ImageFragment{9f951a3 (534eb1ae-5359-4587-82c1-afdc8a68a980) id=0x7f080054 mce-image}
+        at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManagerImpl.java:875)
+        at androidx.fragment.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManagerImpl.java:1238)
+        at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManagerImpl.java:1303)
+        at androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:439)
+        at androidx.fragment.app.FragmentManagerImpl.executeOps(FragmentManagerImpl.java:2079)
+        at androidx.fragment.app.FragmentManagerImpl.executeOpsTogether(FragmentManagerImpl.java:1869)
+        at androidx.fragment.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManagerImpl.java:1824)
+        at androidx.fragment.app.FragmentManagerImpl.execPendingActions(FragmentManagerImpl.java:1727)
+        at androidx.fragment.app.FragmentManagerImpl$2.run(FragmentManagerImpl.java:150)
+        at android.os.Handler.handleCallback(Handler.java:751)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.app.ActivityThread.main(ActivityThread.java:6119)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:886)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:776)
+    
+    
+    --------- beginning of system
+

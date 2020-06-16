@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.acoustic.mobile.push.samples.android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<!-- INTERNET is required for calling the MCE server -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- WAKE_LOC is required for running scheduled tasks -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- RECEIVE_BOOT_COMPLETED is required for performing SDK task on device startup -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- VIBRATE is required for notification configuration -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- CALL_PHONE is optional. It is only required is the dial action is used -->
+
+    <application
+        tools:replace="android:allowBackup, android:name"
+        android:name="co.acoustic.mobile.push.samples.android.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="co.acoustic.mobile.push.samples.android.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="co.acoustic.mobile.push.sdk.db.Provider"
+            android:authorities="co.acoustic.mobile.push.samples.android.MCE_PROVIDER"
+            android:exported="false" />
+
+        <receiver android:name="co.acoustic.mobile.push.sdk.notification.NotifActionReceiver" />
+        <receiver android:name="co.acoustic.mobile.push.sdk.wi.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- FCM Registration -->
+        <!-- Notifier is needed regadless of co.acoustic.mobile.push.samples.android or gcm -->
+        <receiver android:name="co.acoustic.mobile.push.samples.android.MyMceBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="co.acoustic.mobile.push.sdk.NOTIFIER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- FCM Messages -->
+        <service
+            android:name="co.acoustic.mobile.push.sdk.messaging.fcm.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!-- EventsAlarmListener is required for event handling -->
+        <service android:name="co.acoustic.mobile.push.sdk.events.EventsAlarmListener" />
+        <!-- PhoneHomeIntentService is required to allow the client to contact the server to update state -->
+        <service android:name="co.acoustic.mobile.push.sdk.registration.PhoneHomeIntentService" />
+        <!-- RegistrationIntentService is required for SDK registration -->
+        <service android:name="co.acoustic.mobile.push.sdk.registration.RegistrationIntentService" />
+        <!-- AttributesQueueConsumer is required for attributes handling -->
+        <service android:name="co.acoustic.mobile.push.sdk.attributes.AttributesQueueConsumer" />
+        <!-- InboxUpdateService is optional. It is used for retrieving ibox updates from the MCE server. It is required only if inbox is used -->
+        <service android:name="co.acoustic.mobile.push.sdk.plugin.inbox.InboxUpdateService" />
+
+    </application>
+
+</manifest>
