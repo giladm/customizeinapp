@@ -1,25 +1,22 @@
-Customize InApp in Acoustic Android SDK
-=======================================
+# Customize InApp in your app with Acoustic Android SDK 
 
 This sample app demonstrates how to customize Acoustic InApp plugin using Acoustic Android SDK
-After cloning or downloading the repository add Acoustic Android SDK :
-[GitHub](https://github.com/Acoustic-Mobile-Push/Android/)
 
-1. Files to notice
-	AndroidManifest.xml
-	CustomApplication.java
-	CustomFcmService.java
-	CustomMessagingService.java
+### General
 
-2. Copy Acoustic SDK file to ./app/libs folder (example acoustic-mobile-push-android-sdk-3.8.1.aar )
-3. Copy MceConfig.json and modify it based on your appKey and server
- 
-AndroidManifest.xml add or modified Messaging Event:
-```
-<service
-	android:name="co.acoustic.mobile.push.samples.android.fcm.CustomFcmService">
-	<intent-filter>
-		action android:name="com.google.firebase.MESSAGING_EVENT"/>
-	</intent-filter>
-</service>
-```
+- In this app, `plugininapp` is a Java module. The steps to create this library:
+- Switch to the project perspective in Android Studio 
+- Right click on your project and select new module
+- Select Android Library
+-- Name the module for example **plugin-inapp** 
+-- Set the package of the module to co.acoustic.mobile.push.sdk.plugin.inapp
+-- Click Finish
+- Unzip acoustic-mobile-push-android-sdk-plugin-inapp-3.8.1.zip file located at the plugin folder of the SDK package.
+- From src/main folder - copy the assets, java and res folders into the app new module (plugin-inapp) 
+- In the app's module build.gradle file add in the dependencies section:
+- implementation project(':plugin-inapp')
+       	
+
+### To Download Acoustic Android SDK, plugin and Sample app 
+ To download Acoustic Android SDK and plugins use [Acoustic Android 3.8.1 SDK](https://github.com/Acoustic-Mobile-Push/android)
+
